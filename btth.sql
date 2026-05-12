@@ -9,7 +9,7 @@ CREATE TABLE KhoaHoc (
 );
 
 CREATE TABLE MonHoc (
-    ma_mon_hoc VARCHAR(10) PRIMARY KEY, -- Định dạng MHxx
+    ma_mon_hoc VARCHAR(10) PRIMARY KEY, 
     ten_mon_hoc VARCHAR(100) NOT NULL,
     so_tin_chi INT,
     trang_thai_mon_hoc ENUM('Hoạt động', 'Không hoạt động'),
